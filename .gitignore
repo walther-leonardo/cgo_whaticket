@@ -218,3 +218,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datos de clientes y resultados
+ids.txt
+resultados/
+*.xlsx
+*.xls
+*.csv
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
